@@ -27,7 +27,7 @@ int main()
         std::cin >> startCounter;
     }
 
-    Counter counter = (answer == "да")?Counter() : Counter(startCounter);
+    Counter counter = (answer == "да")?Counter(startCounter) : Counter();
     char simbol{};
     while (simbol != 'x')
     {
